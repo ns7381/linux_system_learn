@@ -4,11 +4,5 @@
 
 #ifndef LINUX_SYSTEM_LEARN_FILE_IO_LEARN_H
 #define LINUX_SYSTEM_LEARN_FILE_IO_LEARN_H
-int open_file(char argv[]);
-
-int write_file(char argv[]);
-
-int read_file(char argv[]);
-
-int seek_file(char argv[]);
+int file_io_learn_main();
 #endif //LINUX_SYSTEM_LEARN_FILE_IO_LEARN_H

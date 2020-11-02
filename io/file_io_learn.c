@@ -1,3 +1,4 @@
+#include "stdlib.h"
 #include "stdio.h"
 #include "unistd.h"
 #include "fcntl.h"
@@ -74,4 +75,22 @@ int seek_file(char argv[])
     printf("read file:%s\n", buf);
     close(fd);
     return 0;
+}
+
+int read_write()
+{
+    char buf[10];
+    int n;
+    n = read(STDIN_FILENO, buf, 10);
+    if (n < 0) {
+        perror("read STDIN_FILENO");
+        exit(1);
+    }
+    write(STDOUT_FILENO, buf, n);
+    return 0;
+}
+
+int file_io_learn_main()
+{
+    read_write();
 }

@@ -2,12 +2,22 @@
 #include "unistd.h"
 #include "io/file_io_learn.h"
 #include "io/standard_io_learn.h"
+#include "io/nonblocking_io_learn.h"
+#include "proc/env_learn.h"
+#include "proc/fork_learn.h"
 
 int main() {
-    char *argv = "/Users/ningsheng/project/c/linux_system_learn/test";
+    char *argv = "/Users/ningsheng/project/c/linux_system_learn/test2";
 //    write_file (argv);
 //    seek_file(argv);
-    printf_learn();
+
+//    printf_learn();
+//    fopen_file(argv);
+//    file_io_learn_main();
+//    nonblock_io_learn();
+//    env_learn_main();
+
+    fork_learn_main();
 }
 
 /**

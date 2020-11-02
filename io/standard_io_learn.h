@@ -4,5 +4,5 @@
 
 #ifndef LINUX_SYSTEM_LEARN_STANDARD_IO_LEARN_H
 #define LINUX_SYSTEM_LEARN_STANDARD_IO_LEARN_H
-int printf_learn();
+int standard_io_learn_main();
 #endif //LINUX_SYSTEM_LEARN_STANDARD_IO_LEARN_H
