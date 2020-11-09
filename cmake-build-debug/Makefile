@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nathan/project/c/linux_system_learn
+CMAKE_SOURCE_DIR = /Users/ningsheng/project/c/linux_system_learn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nathan/project/c/linux_system_learn/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/ningsheng/project/c/linux_system_learn/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nathan/project/c/linux_system_learn/cmake-build-debug/CMakeFiles /Users/nathan/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles /Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nathan/project/c/linux_system_learn/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -386,32 +386,113 @@ proc/pip_learn.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/proc/pip_learn.c.s
 .PHONY : proc/pip_learn.c.s
 
-sign/signal_learn.o: sign/signal_learn.c.o
+signal/mysleep_learn.o: signal/mysleep_learn.c.o
 
-.PHONY : sign/signal_learn.o
+.PHONY : signal/mysleep_learn.o
 
 # target to build an object file
-sign/signal_learn.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/sign/signal_learn.c.o
-.PHONY : sign/signal_learn.c.o
+signal/mysleep_learn.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/signal/mysleep_learn.c.o
+.PHONY : signal/mysleep_learn.c.o
 
-sign/signal_learn.i: sign/signal_learn.c.i
+signal/mysleep_learn.i: signal/mysleep_learn.c.i
 
-.PHONY : sign/signal_learn.i
+.PHONY : signal/mysleep_learn.i
 
 # target to preprocess a source file
-sign/signal_learn.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/sign/signal_learn.c.i
-.PHONY : sign/signal_learn.c.i
+signal/mysleep_learn.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/signal/mysleep_learn.c.i
+.PHONY : signal/mysleep_learn.c.i
 
-sign/signal_learn.s: sign/signal_learn.c.s
+signal/mysleep_learn.s: signal/mysleep_learn.c.s
 
-.PHONY : sign/signal_learn.s
+.PHONY : signal/mysleep_learn.s
 
 # target to generate assembly for a file
-sign/signal_learn.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/sign/signal_learn.c.s
-.PHONY : sign/signal_learn.c.s
+signal/mysleep_learn.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/signal/mysleep_learn.c.s
+.PHONY : signal/mysleep_learn.c.s
+
+signal/signal_learn.o: signal/signal_learn.c.o
+
+.PHONY : signal/signal_learn.o
+
+# target to build an object file
+signal/signal_learn.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/signal/signal_learn.c.o
+.PHONY : signal/signal_learn.c.o
+
+signal/signal_learn.i: signal/signal_learn.c.i
+
+.PHONY : signal/signal_learn.i
+
+# target to preprocess a source file
+signal/signal_learn.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/signal/signal_learn.c.i
+.PHONY : signal/signal_learn.c.i
+
+signal/signal_learn.s: signal/signal_learn.c.s
+
+.PHONY : signal/signal_learn.s
+
+# target to generate assembly for a file
+signal/signal_learn.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/signal/signal_learn.c.s
+.PHONY : signal/signal_learn.c.s
+
+terminal/daemon_learn.o: terminal/daemon_learn.c.o
+
+.PHONY : terminal/daemon_learn.o
+
+# target to build an object file
+terminal/daemon_learn.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/terminal/daemon_learn.c.o
+.PHONY : terminal/daemon_learn.c.o
+
+terminal/daemon_learn.i: terminal/daemon_learn.c.i
+
+.PHONY : terminal/daemon_learn.i
+
+# target to preprocess a source file
+terminal/daemon_learn.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/terminal/daemon_learn.c.i
+.PHONY : terminal/daemon_learn.c.i
+
+terminal/daemon_learn.s: terminal/daemon_learn.c.s
+
+.PHONY : terminal/daemon_learn.s
+
+# target to generate assembly for a file
+terminal/daemon_learn.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/terminal/daemon_learn.c.s
+.PHONY : terminal/daemon_learn.c.s
+
+thread/thread_learn.o: thread/thread_learn.c.o
+
+.PHONY : thread/thread_learn.o
+
+# target to build an object file
+thread/thread_learn.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/thread/thread_learn.c.o
+.PHONY : thread/thread_learn.c.o
+
+thread/thread_learn.i: thread/thread_learn.c.i
+
+.PHONY : thread/thread_learn.i
+
+# target to preprocess a source file
+thread/thread_learn.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/thread/thread_learn.c.i
+.PHONY : thread/thread_learn.c.i
+
+thread/thread_learn.s: thread/thread_learn.c.s
+
+.PHONY : thread/thread_learn.s
+
+# target to generate assembly for a file
+thread/thread_learn.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/thread/thread_learn.c.s
+.PHONY : thread/thread_learn.c.s
 
 # Help Target
 help:
@@ -449,9 +530,18 @@ help:
 	@echo "... proc/pip_learn.o"
 	@echo "... proc/pip_learn.i"
 	@echo "... proc/pip_learn.s"
-	@echo "... sign/signal_learn.o"
-	@echo "... sign/signal_learn.i"
-	@echo "... sign/signal_learn.s"
+	@echo "... signal/mysleep_learn.o"
+	@echo "... signal/mysleep_learn.i"
+	@echo "... signal/mysleep_learn.s"
+	@echo "... signal/signal_learn.o"
+	@echo "... signal/signal_learn.i"
+	@echo "... signal/signal_learn.s"
+	@echo "... terminal/daemon_learn.o"
+	@echo "... terminal/daemon_learn.i"
+	@echo "... terminal/daemon_learn.s"
+	@echo "... thread/thread_learn.o"
+	@echo "... thread/thread_learn.i"
+	@echo "... thread/thread_learn.s"
 .PHONY : help
 
 

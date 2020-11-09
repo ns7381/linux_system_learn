@@ -4,16 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/nathan/project/c/linux_system_learn/io/file_io_learn.c" "/Users/nathan/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/io/file_io_learn.c.o"
-  "/Users/nathan/project/c/linux_system_learn/io/file_system_learn.c" "/Users/nathan/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/io/file_system_learn.c.o"
-  "/Users/nathan/project/c/linux_system_learn/io/mmap_learn.c" "/Users/nathan/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/io/mmap_learn.c.o"
-  "/Users/nathan/project/c/linux_system_learn/io/nonblocking_io_learn.c" "/Users/nathan/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/io/nonblocking_io_learn.c.o"
-  "/Users/nathan/project/c/linux_system_learn/io/standard_io_learn.c" "/Users/nathan/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/io/standard_io_learn.c.o"
-  "/Users/nathan/project/c/linux_system_learn/main.c" "/Users/nathan/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/main.c.o"
-  "/Users/nathan/project/c/linux_system_learn/proc/env_learn.c" "/Users/nathan/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/proc/env_learn.c.o"
-  "/Users/nathan/project/c/linux_system_learn/proc/fork_learn.c" "/Users/nathan/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/proc/fork_learn.c.o"
-  "/Users/nathan/project/c/linux_system_learn/proc/pip_learn.c" "/Users/nathan/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/proc/pip_learn.c.o"
-  "/Users/nathan/project/c/linux_system_learn/sign/signal_learn.c" "/Users/nathan/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/sign/signal_learn.c.o"
+  "/Users/ningsheng/project/c/linux_system_learn/io/file_io_learn.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/io/file_io_learn.c.o"
+  "/Users/ningsheng/project/c/linux_system_learn/io/file_system_learn.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/io/file_system_learn.c.o"
+  "/Users/ningsheng/project/c/linux_system_learn/io/mmap_learn.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/io/mmap_learn.c.o"
+  "/Users/ningsheng/project/c/linux_system_learn/io/nonblocking_io_learn.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/io/nonblocking_io_learn.c.o"
+  "/Users/ningsheng/project/c/linux_system_learn/io/standard_io_learn.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/io/standard_io_learn.c.o"
+  "/Users/ningsheng/project/c/linux_system_learn/main.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/main.c.o"
+  "/Users/ningsheng/project/c/linux_system_learn/proc/env_learn.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/proc/env_learn.c.o"
+  "/Users/ningsheng/project/c/linux_system_learn/proc/fork_learn.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/proc/fork_learn.c.o"
+  "/Users/ningsheng/project/c/linux_system_learn/proc/pip_learn.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/proc/pip_learn.c.o"
+  "/Users/ningsheng/project/c/linux_system_learn/signal/mysleep_learn.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/signal/mysleep_learn.c.o"
+  "/Users/ningsheng/project/c/linux_system_learn/signal/signal_learn.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/signal/signal_learn.c.o"
+  "/Users/ningsheng/project/c/linux_system_learn/terminal/daemon_learn.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/terminal/daemon_learn.c.o"
+  "/Users/ningsheng/project/c/linux_system_learn/thread/thread_learn.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/thread/thread_learn.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
