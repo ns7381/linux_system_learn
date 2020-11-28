@@ -27,11 +27,281 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="broadcast">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/broadcast" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 broadcast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="broadcast/fast">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/broadcast" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 broadcast/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp_client">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/udp_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp_client"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp_client/fast">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/udp_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp_client/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp_server">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/udp_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp_server"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp_server/fast">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/udp_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp_server/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="select2">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/select2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 select2"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="select2/fast">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/select2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 select2/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multicast">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/multicast" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 multicast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multicast/fast">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/multicast" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 multicast/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="socket">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/socket" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 socket"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="socket/fast">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/socket" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 socket/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="socket_client">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/socket_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 socket_client"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="socket_client/fast">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/socket_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 socket_client/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -77,7 +347,140 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="select">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/select" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 select"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="select/fast">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/select" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 select/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="epoll">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/epoll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 epoll"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="epoll/fast">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/epoll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 epoll/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fork_server">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/fork_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 fork_server"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fork_server/fast">
+				<Option output="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/fork_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 fork_server/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/Users/ningsheng/project/c/linux_system_learn/driver/hello.c">
+			<Option target="linux_system_learn"/>
+		</Unit>
 		<Unit filename="/Users/ningsheng/project/c/linux_system_learn/io/file_io_learn.c">
 			<Option target="linux_system_learn"/>
 		</Unit>
@@ -134,6 +537,36 @@
 		</Unit>
 		<Unit filename="/Users/ningsheng/project/c/linux_system_learn/signal/signal_learn.c">
 			<Option target="linux_system_learn"/>
+		</Unit>
+		<Unit filename="/Users/ningsheng/project/c/linux_system_learn/socket/tcp/client.c">
+			<Option target="socket_client"/>
+		</Unit>
+		<Unit filename="/Users/ningsheng/project/c/linux_system_learn/socket/tcp/epoll.c">
+			<Option target="epoll"/>
+		</Unit>
+		<Unit filename="/Users/ningsheng/project/c/linux_system_learn/socket/tcp/fork_server.c">
+			<Option target="fork_server"/>
+		</Unit>
+		<Unit filename="/Users/ningsheng/project/c/linux_system_learn/socket/tcp/select.c">
+			<Option target="select"/>
+		</Unit>
+		<Unit filename="/Users/ningsheng/project/c/linux_system_learn/socket/tcp/select2.c">
+			<Option target="select2"/>
+		</Unit>
+		<Unit filename="/Users/ningsheng/project/c/linux_system_learn/socket/tcp/server.c">
+			<Option target="socket"/>
+		</Unit>
+		<Unit filename="/Users/ningsheng/project/c/linux_system_learn/socket/udp/broadcast.c">
+			<Option target="broadcast"/>
+		</Unit>
+		<Unit filename="/Users/ningsheng/project/c/linux_system_learn/socket/udp/multicast.c">
+			<Option target="multicast"/>
+		</Unit>
+		<Unit filename="/Users/ningsheng/project/c/linux_system_learn/socket/udp/udp_client.c">
+			<Option target="udp_client"/>
+		</Unit>
+		<Unit filename="/Users/ningsheng/project/c/linux_system_learn/socket/udp/udp_server.c">
+			<Option target="udp_server"/>
 		</Unit>
 		<Unit filename="/Users/ningsheng/project/c/linux_system_learn/terminal/daemon_learn.c">
 			<Option target="linux_system_learn"/>

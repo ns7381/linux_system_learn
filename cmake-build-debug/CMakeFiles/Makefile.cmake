@@ -47,5 +47,15 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/broadcast.dir/DependInfo.cmake"
+  "CMakeFiles/udp_client.dir/DependInfo.cmake"
+  "CMakeFiles/udp_server.dir/DependInfo.cmake"
+  "CMakeFiles/select2.dir/DependInfo.cmake"
+  "CMakeFiles/multicast.dir/DependInfo.cmake"
+  "CMakeFiles/socket.dir/DependInfo.cmake"
+  "CMakeFiles/socket_client.dir/DependInfo.cmake"
   "CMakeFiles/linux_system_learn.dir/DependInfo.cmake"
+  "CMakeFiles/select.dir/DependInfo.cmake"
+  "CMakeFiles/epoll.dir/DependInfo.cmake"
+  "CMakeFiles/fork_server.dir/DependInfo.cmake"
   )

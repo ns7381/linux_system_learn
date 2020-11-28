@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/linux_system_learn.dir/driver/hello.c.o"
   "CMakeFiles/linux_system_learn.dir/io/file_io_learn.c.o"
   "CMakeFiles/linux_system_learn.dir/io/file_system_learn.c.o"
   "CMakeFiles/linux_system_learn.dir/io/mmap_learn.c.o"

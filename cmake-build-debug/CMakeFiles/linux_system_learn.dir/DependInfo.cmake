@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/ningsheng/project/c/linux_system_learn/driver/hello.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/driver/hello.c.o"
   "/Users/ningsheng/project/c/linux_system_learn/io/file_io_learn.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/io/file_io_learn.c.o"
   "/Users/ningsheng/project/c/linux_system_learn/io/file_system_learn.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/io/file_system_learn.c.o"
   "/Users/ningsheng/project/c/linux_system_learn/io/mmap_learn.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/io/mmap_learn.c.o"

@@ -1,3 +1,13 @@
 /Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/broadcast.dir
+/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/udp_client.dir
+/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/udp_server.dir
+/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/select2.dir
+/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/multicast.dir
+/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/socket.dir
+/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/socket_client.dir
 /Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir
+/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/select.dir
+/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/epoll.dir
+/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/fork_server.dir

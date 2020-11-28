@@ -131,6 +131,97 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named broadcast
+
+# Build rule for target.
+broadcast: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 broadcast
+.PHONY : broadcast
+
+# fast build rule for target.
+broadcast/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/broadcast.dir/build.make CMakeFiles/broadcast.dir/build
+.PHONY : broadcast/fast
+
+#=============================================================================
+# Target rules for targets named udp_client
+
+# Build rule for target.
+udp_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 udp_client
+.PHONY : udp_client
+
+# fast build rule for target.
+udp_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_client.dir/build.make CMakeFiles/udp_client.dir/build
+.PHONY : udp_client/fast
+
+#=============================================================================
+# Target rules for targets named udp_server
+
+# Build rule for target.
+udp_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 udp_server
+.PHONY : udp_server
+
+# fast build rule for target.
+udp_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_server.dir/build.make CMakeFiles/udp_server.dir/build
+.PHONY : udp_server/fast
+
+#=============================================================================
+# Target rules for targets named select2
+
+# Build rule for target.
+select2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 select2
+.PHONY : select2
+
+# fast build rule for target.
+select2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select2.dir/build.make CMakeFiles/select2.dir/build
+.PHONY : select2/fast
+
+#=============================================================================
+# Target rules for targets named multicast
+
+# Build rule for target.
+multicast: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 multicast
+.PHONY : multicast
+
+# fast build rule for target.
+multicast/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicast.dir/build.make CMakeFiles/multicast.dir/build
+.PHONY : multicast/fast
+
+#=============================================================================
+# Target rules for targets named socket
+
+# Build rule for target.
+socket: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 socket
+.PHONY : socket
+
+# fast build rule for target.
+socket/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket.dir/build.make CMakeFiles/socket.dir/build
+.PHONY : socket/fast
+
+#=============================================================================
+# Target rules for targets named socket_client
+
+# Build rule for target.
+socket_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 socket_client
+.PHONY : socket_client
+
+# fast build rule for target.
+socket_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket_client.dir/build.make CMakeFiles/socket_client.dir/build
+.PHONY : socket_client/fast
+
+#=============================================================================
 # Target rules for targets named linux_system_learn
 
 # Build rule for target.
@@ -142,6 +233,72 @@ linux_system_learn: cmake_check_build_system
 linux_system_learn/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/build
 .PHONY : linux_system_learn/fast
+
+#=============================================================================
+# Target rules for targets named select
+
+# Build rule for target.
+select: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 select
+.PHONY : select
+
+# fast build rule for target.
+select/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/build
+.PHONY : select/fast
+
+#=============================================================================
+# Target rules for targets named epoll
+
+# Build rule for target.
+epoll: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 epoll
+.PHONY : epoll
+
+# fast build rule for target.
+epoll/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/epoll.dir/build.make CMakeFiles/epoll.dir/build
+.PHONY : epoll/fast
+
+#=============================================================================
+# Target rules for targets named fork_server
+
+# Build rule for target.
+fork_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fork_server
+.PHONY : fork_server
+
+# fast build rule for target.
+fork_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fork_server.dir/build.make CMakeFiles/fork_server.dir/build
+.PHONY : fork_server/fast
+
+driver/hello.o: driver/hello.c.o
+
+.PHONY : driver/hello.o
+
+# target to build an object file
+driver/hello.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/driver/hello.c.o
+.PHONY : driver/hello.c.o
+
+driver/hello.i: driver/hello.c.i
+
+.PHONY : driver/hello.i
+
+# target to preprocess a source file
+driver/hello.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/driver/hello.c.i
+.PHONY : driver/hello.c.i
+
+driver/hello.s: driver/hello.c.s
+
+.PHONY : driver/hello.s
+
+# target to generate assembly for a file
+driver/hello.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/driver/hello.c.s
+.PHONY : driver/hello.c.s
 
 io/file_io_learn.o: io/file_io_learn.c.o
 
@@ -440,6 +597,276 @@ signal/signal_learn.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linux_system_learn.dir/build.make CMakeFiles/linux_system_learn.dir/signal/signal_learn.c.s
 .PHONY : signal/signal_learn.c.s
 
+socket/tcp/client.o: socket/tcp/client.c.o
+
+.PHONY : socket/tcp/client.o
+
+# target to build an object file
+socket/tcp/client.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket_client.dir/build.make CMakeFiles/socket_client.dir/socket/tcp/client.c.o
+.PHONY : socket/tcp/client.c.o
+
+socket/tcp/client.i: socket/tcp/client.c.i
+
+.PHONY : socket/tcp/client.i
+
+# target to preprocess a source file
+socket/tcp/client.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket_client.dir/build.make CMakeFiles/socket_client.dir/socket/tcp/client.c.i
+.PHONY : socket/tcp/client.c.i
+
+socket/tcp/client.s: socket/tcp/client.c.s
+
+.PHONY : socket/tcp/client.s
+
+# target to generate assembly for a file
+socket/tcp/client.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket_client.dir/build.make CMakeFiles/socket_client.dir/socket/tcp/client.c.s
+.PHONY : socket/tcp/client.c.s
+
+socket/tcp/epoll.o: socket/tcp/epoll.c.o
+
+.PHONY : socket/tcp/epoll.o
+
+# target to build an object file
+socket/tcp/epoll.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/epoll.dir/build.make CMakeFiles/epoll.dir/socket/tcp/epoll.c.o
+.PHONY : socket/tcp/epoll.c.o
+
+socket/tcp/epoll.i: socket/tcp/epoll.c.i
+
+.PHONY : socket/tcp/epoll.i
+
+# target to preprocess a source file
+socket/tcp/epoll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/epoll.dir/build.make CMakeFiles/epoll.dir/socket/tcp/epoll.c.i
+.PHONY : socket/tcp/epoll.c.i
+
+socket/tcp/epoll.s: socket/tcp/epoll.c.s
+
+.PHONY : socket/tcp/epoll.s
+
+# target to generate assembly for a file
+socket/tcp/epoll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/epoll.dir/build.make CMakeFiles/epoll.dir/socket/tcp/epoll.c.s
+.PHONY : socket/tcp/epoll.c.s
+
+socket/tcp/fork_server.o: socket/tcp/fork_server.c.o
+
+.PHONY : socket/tcp/fork_server.o
+
+# target to build an object file
+socket/tcp/fork_server.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fork_server.dir/build.make CMakeFiles/fork_server.dir/socket/tcp/fork_server.c.o
+.PHONY : socket/tcp/fork_server.c.o
+
+socket/tcp/fork_server.i: socket/tcp/fork_server.c.i
+
+.PHONY : socket/tcp/fork_server.i
+
+# target to preprocess a source file
+socket/tcp/fork_server.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fork_server.dir/build.make CMakeFiles/fork_server.dir/socket/tcp/fork_server.c.i
+.PHONY : socket/tcp/fork_server.c.i
+
+socket/tcp/fork_server.s: socket/tcp/fork_server.c.s
+
+.PHONY : socket/tcp/fork_server.s
+
+# target to generate assembly for a file
+socket/tcp/fork_server.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fork_server.dir/build.make CMakeFiles/fork_server.dir/socket/tcp/fork_server.c.s
+.PHONY : socket/tcp/fork_server.c.s
+
+socket/tcp/select.o: socket/tcp/select.c.o
+
+.PHONY : socket/tcp/select.o
+
+# target to build an object file
+socket/tcp/select.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/socket/tcp/select.c.o
+.PHONY : socket/tcp/select.c.o
+
+socket/tcp/select.i: socket/tcp/select.c.i
+
+.PHONY : socket/tcp/select.i
+
+# target to preprocess a source file
+socket/tcp/select.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/socket/tcp/select.c.i
+.PHONY : socket/tcp/select.c.i
+
+socket/tcp/select.s: socket/tcp/select.c.s
+
+.PHONY : socket/tcp/select.s
+
+# target to generate assembly for a file
+socket/tcp/select.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/socket/tcp/select.c.s
+.PHONY : socket/tcp/select.c.s
+
+socket/tcp/select2.o: socket/tcp/select2.c.o
+
+.PHONY : socket/tcp/select2.o
+
+# target to build an object file
+socket/tcp/select2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select2.dir/build.make CMakeFiles/select2.dir/socket/tcp/select2.c.o
+.PHONY : socket/tcp/select2.c.o
+
+socket/tcp/select2.i: socket/tcp/select2.c.i
+
+.PHONY : socket/tcp/select2.i
+
+# target to preprocess a source file
+socket/tcp/select2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select2.dir/build.make CMakeFiles/select2.dir/socket/tcp/select2.c.i
+.PHONY : socket/tcp/select2.c.i
+
+socket/tcp/select2.s: socket/tcp/select2.c.s
+
+.PHONY : socket/tcp/select2.s
+
+# target to generate assembly for a file
+socket/tcp/select2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select2.dir/build.make CMakeFiles/select2.dir/socket/tcp/select2.c.s
+.PHONY : socket/tcp/select2.c.s
+
+socket/tcp/server.o: socket/tcp/server.c.o
+
+.PHONY : socket/tcp/server.o
+
+# target to build an object file
+socket/tcp/server.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket.dir/build.make CMakeFiles/socket.dir/socket/tcp/server.c.o
+.PHONY : socket/tcp/server.c.o
+
+socket/tcp/server.i: socket/tcp/server.c.i
+
+.PHONY : socket/tcp/server.i
+
+# target to preprocess a source file
+socket/tcp/server.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket.dir/build.make CMakeFiles/socket.dir/socket/tcp/server.c.i
+.PHONY : socket/tcp/server.c.i
+
+socket/tcp/server.s: socket/tcp/server.c.s
+
+.PHONY : socket/tcp/server.s
+
+# target to generate assembly for a file
+socket/tcp/server.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket.dir/build.make CMakeFiles/socket.dir/socket/tcp/server.c.s
+.PHONY : socket/tcp/server.c.s
+
+socket/udp/broadcast.o: socket/udp/broadcast.c.o
+
+.PHONY : socket/udp/broadcast.o
+
+# target to build an object file
+socket/udp/broadcast.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/broadcast.dir/build.make CMakeFiles/broadcast.dir/socket/udp/broadcast.c.o
+.PHONY : socket/udp/broadcast.c.o
+
+socket/udp/broadcast.i: socket/udp/broadcast.c.i
+
+.PHONY : socket/udp/broadcast.i
+
+# target to preprocess a source file
+socket/udp/broadcast.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/broadcast.dir/build.make CMakeFiles/broadcast.dir/socket/udp/broadcast.c.i
+.PHONY : socket/udp/broadcast.c.i
+
+socket/udp/broadcast.s: socket/udp/broadcast.c.s
+
+.PHONY : socket/udp/broadcast.s
+
+# target to generate assembly for a file
+socket/udp/broadcast.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/broadcast.dir/build.make CMakeFiles/broadcast.dir/socket/udp/broadcast.c.s
+.PHONY : socket/udp/broadcast.c.s
+
+socket/udp/multicast.o: socket/udp/multicast.c.o
+
+.PHONY : socket/udp/multicast.o
+
+# target to build an object file
+socket/udp/multicast.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicast.dir/build.make CMakeFiles/multicast.dir/socket/udp/multicast.c.o
+.PHONY : socket/udp/multicast.c.o
+
+socket/udp/multicast.i: socket/udp/multicast.c.i
+
+.PHONY : socket/udp/multicast.i
+
+# target to preprocess a source file
+socket/udp/multicast.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicast.dir/build.make CMakeFiles/multicast.dir/socket/udp/multicast.c.i
+.PHONY : socket/udp/multicast.c.i
+
+socket/udp/multicast.s: socket/udp/multicast.c.s
+
+.PHONY : socket/udp/multicast.s
+
+# target to generate assembly for a file
+socket/udp/multicast.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicast.dir/build.make CMakeFiles/multicast.dir/socket/udp/multicast.c.s
+.PHONY : socket/udp/multicast.c.s
+
+socket/udp/udp_client.o: socket/udp/udp_client.c.o
+
+.PHONY : socket/udp/udp_client.o
+
+# target to build an object file
+socket/udp/udp_client.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_client.dir/build.make CMakeFiles/udp_client.dir/socket/udp/udp_client.c.o
+.PHONY : socket/udp/udp_client.c.o
+
+socket/udp/udp_client.i: socket/udp/udp_client.c.i
+
+.PHONY : socket/udp/udp_client.i
+
+# target to preprocess a source file
+socket/udp/udp_client.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_client.dir/build.make CMakeFiles/udp_client.dir/socket/udp/udp_client.c.i
+.PHONY : socket/udp/udp_client.c.i
+
+socket/udp/udp_client.s: socket/udp/udp_client.c.s
+
+.PHONY : socket/udp/udp_client.s
+
+# target to generate assembly for a file
+socket/udp/udp_client.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_client.dir/build.make CMakeFiles/udp_client.dir/socket/udp/udp_client.c.s
+.PHONY : socket/udp/udp_client.c.s
+
+socket/udp/udp_server.o: socket/udp/udp_server.c.o
+
+.PHONY : socket/udp/udp_server.o
+
+# target to build an object file
+socket/udp/udp_server.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_server.dir/build.make CMakeFiles/udp_server.dir/socket/udp/udp_server.c.o
+.PHONY : socket/udp/udp_server.c.o
+
+socket/udp/udp_server.i: socket/udp/udp_server.c.i
+
+.PHONY : socket/udp/udp_server.i
+
+# target to preprocess a source file
+socket/udp/udp_server.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_server.dir/build.make CMakeFiles/udp_server.dir/socket/udp/udp_server.c.i
+.PHONY : socket/udp/udp_server.c.i
+
+socket/udp/udp_server.s: socket/udp/udp_server.c.s
+
+.PHONY : socket/udp/udp_server.s
+
+# target to generate assembly for a file
+socket/udp/udp_server.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_server.dir/build.make CMakeFiles/udp_server.dir/socket/udp/udp_server.c.s
+.PHONY : socket/udp/udp_server.c.s
+
 terminal/daemon_learn.o: terminal/daemon_learn.c.o
 
 .PHONY : terminal/daemon_learn.o
@@ -502,7 +929,20 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... broadcast"
+	@echo "... epoll"
+	@echo "... fork_server"
 	@echo "... linux_system_learn"
+	@echo "... multicast"
+	@echo "... select"
+	@echo "... select2"
+	@echo "... socket"
+	@echo "... socket_client"
+	@echo "... udp_client"
+	@echo "... udp_server"
+	@echo "... driver/hello.o"
+	@echo "... driver/hello.i"
+	@echo "... driver/hello.s"
 	@echo "... io/file_io_learn.o"
 	@echo "... io/file_io_learn.i"
 	@echo "... io/file_io_learn.s"
@@ -536,6 +976,36 @@ help:
 	@echo "... signal/signal_learn.o"
 	@echo "... signal/signal_learn.i"
 	@echo "... signal/signal_learn.s"
+	@echo "... socket/tcp/client.o"
+	@echo "... socket/tcp/client.i"
+	@echo "... socket/tcp/client.s"
+	@echo "... socket/tcp/epoll.o"
+	@echo "... socket/tcp/epoll.i"
+	@echo "... socket/tcp/epoll.s"
+	@echo "... socket/tcp/fork_server.o"
+	@echo "... socket/tcp/fork_server.i"
+	@echo "... socket/tcp/fork_server.s"
+	@echo "... socket/tcp/select.o"
+	@echo "... socket/tcp/select.i"
+	@echo "... socket/tcp/select.s"
+	@echo "... socket/tcp/select2.o"
+	@echo "... socket/tcp/select2.i"
+	@echo "... socket/tcp/select2.s"
+	@echo "... socket/tcp/server.o"
+	@echo "... socket/tcp/server.i"
+	@echo "... socket/tcp/server.s"
+	@echo "... socket/udp/broadcast.o"
+	@echo "... socket/udp/broadcast.i"
+	@echo "... socket/udp/broadcast.s"
+	@echo "... socket/udp/multicast.o"
+	@echo "... socket/udp/multicast.i"
+	@echo "... socket/udp/multicast.s"
+	@echo "... socket/udp/udp_client.o"
+	@echo "... socket/udp/udp_client.i"
+	@echo "... socket/udp/udp_client.s"
+	@echo "... socket/udp/udp_server.o"
+	@echo "... socket/udp/udp_server.i"
+	@echo "... socket/udp/udp_server.s"
 	@echo "... terminal/daemon_learn.o"
 	@echo "... terminal/daemon_learn.i"
 	@echo "... terminal/daemon_learn.s"
