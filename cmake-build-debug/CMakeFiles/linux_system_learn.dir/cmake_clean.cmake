@@ -12,7 +12,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/linux_system_learn.dir/signal/mysleep_learn.c.o"
   "CMakeFiles/linux_system_learn.dir/signal/signal_learn.c.o"
   "CMakeFiles/linux_system_learn.dir/terminal/daemon_learn.c.o"
-  "CMakeFiles/linux_system_learn.dir/thread/thread_learn.c.o"
   "linux_system_learn"
   "linux_system_learn.pdb"
 )

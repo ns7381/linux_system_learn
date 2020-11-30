@@ -17,7 +17,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ningsheng/project/c/linux_system_learn/signal/mysleep_learn.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/signal/mysleep_learn.c.o"
   "/Users/ningsheng/project/c/linux_system_learn/signal/signal_learn.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/signal/signal_learn.c.o"
   "/Users/ningsheng/project/c/linux_system_learn/terminal/daemon_learn.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/terminal/daemon_learn.c.o"
-  "/Users/ningsheng/project/c/linux_system_learn/thread/thread_learn.c" "/Users/ningsheng/project/c/linux_system_learn/cmake-build-debug/CMakeFiles/linux_system_learn.dir/thread/thread_learn.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
